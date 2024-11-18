@@ -21,7 +21,11 @@ public class Cheers {
              }
              sw = 0;
             }
-            System.out.println("What does that spell?");
+            if (times == 0) {
+                System.out.print("What does that spell?");
+            } else {
+                System.out.println("What does that spell?");
+            }
             for (int j=0; j<times; j++)
             {
                 System.out.println(word + "!!!");
