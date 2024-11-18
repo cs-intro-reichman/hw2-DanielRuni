@@ -17,7 +17,7 @@ public class Cheers {
                 }
              }
              if (sw == 0) {
-                System.out.println("Give me an " + word.charAt(i) + ": " + word.charAt(i) + "!");
+                System.out.println("Give me a  " + word.charAt(i) + ": " + word.charAt(i) + "!");
              }
              sw = 0;
             }
