@@ -6,7 +6,6 @@ public class Cheers {
             int sw = 0;
             int times = Integer.parseInt (args[1]);
             word = word.toUpperCase();
-            System.out.println(word);
             for (int i=0; i<word.length(); i++)
             {
              for (int k=0; k<lettersToCheck.length(); k++)
@@ -21,11 +20,7 @@ public class Cheers {
              }
              sw = 0;
             }
-            if (times == 0) {
-                System.out.print("What does that spell?");
-            } else {
-                System.out.println("What does that spell?");
-            }
+            System.out.println("What does that spell?");
             for (int j=0; j<times; j++)
             {
                 System.out.println(word + "!!!");
